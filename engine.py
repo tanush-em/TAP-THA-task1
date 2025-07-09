@@ -7,10 +7,11 @@ import matplotlib.pyplot as plt
 from collections import defaultdict
 from pathlib import Path
 
-# Load YOLOv5 model
+# Load YOLOv5 modrl
 model = torch.hub.load('ultralytics/yolov5', 'yolov5x', pretrained=True)
 model.eval()
 
+# Directry Setup
 INPUT_VIDEO = 'input/input_video.mp4'
 OUTPUT_DIR = 'output'
 FRAME_DIR = f'{OUTPUT_DIR}/frames'
@@ -21,6 +22,7 @@ BAR_CHART_PATH = f'{OUTPUT_DIR}/object_frequency.png'
 Path(FRAME_DIR).mkdir(parents=True, exist_ok=True)
 Path(JSON_DIR).mkdir(parents=True, exist_ok=True)
 
+# Video Processing
 cap = cv2.VideoCapture(INPUT_VIDEO)
 fps = int(cap.get(cv2.CAP_PROP_FPS))
 frame_count = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
@@ -44,6 +46,7 @@ while cap.isOpened():
         frame_json = []
         unique_classes = set()
 
+        # Save info to JSON
         for *box, conf, cls in detections.tolist():
             label = model.names[int(cls)]
             unique_classes.add(label)
@@ -54,22 +57,20 @@ while cap.isOpened():
                 'confidence': round(conf, 3)
             })
 
-            # Annotate frame (optional)
+            # Frame Annotations
             x1, y1, x2, y2 = map(int, box)
             cv2.rectangle(frame, (x1, y1), (x2, y2), (0,255,0), 2)
             cv2.putText(frame, f"{label} {conf:.2f}", (x1, y1 - 10),
                         cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0,255,0), 2)
 
-        # Save JSON
+        # Save tp json, annotated frames etc.
         json_path = f"{JSON_DIR}/frame_{frame_idx}.json"
         with open(json_path, 'w') as f:
             json.dump(frame_json, f, indent=2)
 
-        # Save annotated frame
         annotated_path = f"{FRAME_DIR}/frame_{frame_idx}.jpg"
         cv2.imwrite(annotated_path, frame)
 
-        # Store for summary
         json_outputs[frame_idx] = frame_json
         diversity_per_frame[frame_idx] = len(unique_classes)
         annotated_frames.append(frame)
@@ -93,12 +94,4 @@ plt.tight_layout()
 plt.savefig(BAR_CHART_PATH)
 plt.close()
 
-# Optional: Compile video
-if annotated_frames:
-    height, width, _ = annotated_frames[0].shape
-    out = cv2.VideoWriter(VIDEO_OUT, cv2.VideoWriter_fourcc(*'mp4v'), fps//interval, (width, height))
-    for frame in annotated_frames:
-        out.write(frame)
-    out.release()
-
-print("Detection Summary Complete.")
+print("Detection Summary Engine Complete....")
