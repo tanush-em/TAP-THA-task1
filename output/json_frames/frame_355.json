@@ -1,0 +1,32 @@
+[
+  {
+    "label": "person",
+    "bbox": [
+      820.04,
+      0.76,
+      1280.0,
+      720.0
+    ],
+    "confidence": 0.875
+  },
+  {
+    "label": "person",
+    "bbox": [
+      619.86,
+      58.67,
+      822.94,
+      448.8
+    ],
+    "confidence": 0.392
+  },
+  {
+    "label": "baseball glove",
+    "bbox": [
+      820.86,
+      55.98,
+      991.03,
+      195.86
+    ],
+    "confidence": 0.279
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "label": "person",
+    "bbox": [
+      620.0,
+      433.9,
+      704.71,
+      644.32
+    ],
+    "confidence": 0.866
+  },
+  {
+    "label": "person",
+    "bbox": [
+      630.97,
+      50.53,
+      688.87,
+      202.56
+    ],
+    "confidence": 0.858
+  },
+  {
+    "label": "person",
+    "bbox": [
+      483.38,
+      369.49,
+      569.82,
+      600.25
+    ],
+    "confidence": 0.83
+  },
+  {
+    "label": "person",
+    "bbox": [
+      546.97,
+      356.37,
+      639.83,
+      605.98
+    ],
+    "confidence": 0.793
+  },
+  {
+    "label": "person",
+    "bbox": [
+      562.68,
+      387.96,
+      697.14,
+      631.94
+    ],
+    "confidence": 0.463
+  },
+  {
+    "label": "tennis racket",
+    "bbox": [
+      461.77,
+      376.01,
+      498.36,
+      437.89
+    ],
+    "confidence": 0.371
+  },
+  {
+    "label": "tennis racket",
+    "bbox": [
+      662.04,
+      32.86,
+      705.43,
+      101.51
+    ],
+    "confidence": 0.358
+  }
+]
