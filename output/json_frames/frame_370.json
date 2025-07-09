@@ -1,0 +1,72 @@
+[
+  {
+    "label": "person",
+    "bbox": [
+      778.77,
+      0.0,
+      1278.81,
+      713.58
+    ],
+    "confidence": 0.888
+  },
+  {
+    "label": "sports ball",
+    "bbox": [
+      716.87,
+      388.01,
+      791.76,
+      435.56
+    ],
+    "confidence": 0.865
+  },
+  {
+    "label": "person",
+    "bbox": [
+      21.73,
+      253.29,
+      219.47,
+      690.03
+    ],
+    "confidence": 0.585
+  },
+  {
+    "label": "person",
+    "bbox": [
+      305.9,
+      34.23,
+      522.71,
+      434.41
+    ],
+    "confidence": 0.58
+  },
+  {
+    "label": "person",
+    "bbox": [
+      476.99,
+      148.29,
+      669.32,
+      462.55
+    ],
+    "confidence": 0.382
+  },
+  {
+    "label": "baseball glove",
+    "bbox": [
+      776.95,
+      0.0,
+      954.61,
+      165.06
+    ],
+    "confidence": 0.382
+  },
+  {
+    "label": "person",
+    "bbox": [
+      644.31,
+      77.85,
+      798.46,
+      430.64
+    ],
+    "confidence": 0.317
+  }
+]

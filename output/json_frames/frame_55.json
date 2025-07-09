@@ -1,0 +1,62 @@
+[
+  {
+    "label": "person",
+    "bbox": [
+      557.82,
+      0.17,
+      736.45,
+      118.24
+    ],
+    "confidence": 0.922
+  },
+  {
+    "label": "person",
+    "bbox": [
+      568.56,
+      206.0,
+      701.38,
+      510.71
+    ],
+    "confidence": 0.874
+  },
+  {
+    "label": "person",
+    "bbox": [
+      1232.8,
+      575.45,
+      1279.95,
+      692.08
+    ],
+    "confidence": 0.874
+  },
+  {
+    "label": "person",
+    "bbox": [
+      0.48,
+      1.54,
+      178.83,
+      92.99
+    ],
+    "confidence": 0.76
+  },
+  {
+    "label": "baseball bat",
+    "bbox": [
+      524.67,
+      331.15,
+      641.22,
+      374.49
+    ],
+    "confidence": 0.567
+  },
+  {
+    "label": "tennis racket",
+    "bbox": [
+      524.6,
+      330.56,
+      637.36,
+      374.07
+    ],
+    "confidence": 0.546
+  }
+]

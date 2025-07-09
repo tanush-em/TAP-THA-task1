@@ -22,7 +22,7 @@ BAR_CHART_PATH = f'{OUTPUT_DIR}/object_frequency.png'
 Path(FRAME_DIR).mkdir(parents=True, exist_ok=True)
 Path(JSON_DIR).mkdir(parents=True, exist_ok=True)
 
-# Video Processing
+# Video Processsing
 cap = cv2.VideoCapture(INPUT_VIDEO)
 fps = int(cap.get(cv2.CAP_PROP_FPS))
 frame_count = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))

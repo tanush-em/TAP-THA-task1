@@ -1,0 +1,102 @@
+[
+  {
+    "label": "person",
+    "bbox": [
+      608.2,
+      387.7,
+      694.29,
+      640.02
+    ],
+    "confidence": 0.928
+  },
+  {
+    "label": "person",
+    "bbox": [
+      967.68,
+      292.09,
+      1046.49,
+      523.45
+    ],
+    "confidence": 0.919
+  },
+  {
+    "label": "person",
+    "bbox": [
+      623.88,
+      84.23,
+      695.78,
+      252.88
+    ],
+    "confidence": 0.889
+  },
+  {
+    "label": "person",
+    "bbox": [
+      519.92,
+      315.36,
+      598.04,
+      561.13
+    ],
+    "confidence": 0.858
+  },
+  {
+    "label": "skateboard",
+    "bbox": [
+      963.24,
+      412.52,
+      1008.59,
+      526.78
+    ],
+    "confidence": 0.691
+  },
+  {
+    "label": "person",
+    "bbox": [
+      621.37,
+      0.67,
+      658.28,
+      62.82
+    ],
+    "confidence": 0.652
+  },
+  {
+    "label": "person",
+    "bbox": [
+      590.75,
+      0.47,
+      621.23,
+      62.89
+    ],
+    "confidence": 0.598
+  },
+  {
+    "label": "person",
+    "bbox": [
+      305.51,
+      0.0,
+      403.7,
+      42.61
+    ],
+    "confidence": 0.495
+  },
+  {
+    "label": "tennis racket",
+    "bbox": [
+      599.46,
+      119.13,
+      638.48,
+      151.16
+    ],
+    "confidence": 0.382
+  },
+  {
+    "label": "skateboard",
+    "bbox": [
+      634.76,
+      156.06,
+      659.69,
+      245.99
+    ],
+    "confidence": 0.313
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "label": "person",
+    "bbox": [
+      6.26,
+      270.93,
+      168.29,
+      477.48
+    ],
+    "confidence": 0.807
+  },
+  {
+    "label": "sports ball",
+    "bbox": [
+      912.84,
+      472.43,
+      923.13,
+      480.46
+    ],
+    "confidence": 0.331
+  },
+  {
+    "label": "tennis racket",
+    "bbox": [
+      39.75,
+      358.05,
+      147.65,
+      382.12
+    ],
+    "confidence": 0.285
+  },
+  {
+    "label": "person",
+    "bbox": [
+      0.32,
+      304.58,
+      90.15,
+      476.0
+    ],
+    "confidence": 0.256
+  }
+]
