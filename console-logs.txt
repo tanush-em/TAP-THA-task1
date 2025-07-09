@@ -226,6 +226,8 @@ Adding AutoShape...
 /Users/tanush/.cache/torch/hub/ultralytics_yolov5_master/models/common.py:906: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
   with amp.autocast(autocast):
   ---warning---
-  
+
 Frame with max class diversity: 25
 Detection Summary Engine Complete....
+
+(env-TAPtask1) ➜  TechAtPlay-Task1 git:(master)
