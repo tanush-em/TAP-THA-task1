@@ -3,4 +3,4 @@
 env
 __pycache__/
 .DS_Store
-yolov5x.pt
+/yolov5x.pt
