@@ -30,7 +30,7 @@ detection_summary_engine/
 │   ├── json_frames/           # JSON outputs per frame
 │   ├── object_frequency.png   # Bar chart of object counts
 │   └── output_video.mp4       # (Optional) compiled video
----
+
 
 ## 🔁 Project Workflow
 
