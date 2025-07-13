@@ -18,7 +18,7 @@ This project is built for an object detection pipeline as part of a computer vis
 ---
 
 ## 📂 Project Structure
-
+```
 detection_summary_engine/
 ├── detect_summary.py          # Main detection script
 ├── requirements.txt           # Dependencies
@@ -30,7 +30,7 @@ detection_summary_engine/
 │   ├── json_frames/           # JSON outputs per frame
 │   ├── object_frequency.png   # Bar chart of object counts
 │   └── output_video.mp4       # (Optional) compiled video
-
+```
 
 ## 🔁 Project Workflow
 
